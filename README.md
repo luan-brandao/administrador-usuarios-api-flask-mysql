@@ -76,3 +76,6 @@ O botão 'Atualizar' permite ao usuário modificar informações de um usuário 
 A função de deletar usuários permite remover um usuário existente do sistema. Ao clicar no botão "Deletar" associado a um usuário na lista, o sistema solicitará a confirmação e, em seguida, executará a exclusão do usuário selecionado do banco de dados. 
 
 ![Deletar Usuário](https://drive.google.com/uc?id=13iLj9Tk4usdSt5FLcVqbi9VznA83xXCE)
+
+
+link do video: https://youtu.be/0ILz4YQW7RA
