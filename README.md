@@ -2,7 +2,12 @@
 
 # API de Gerenciamento de Usuários com Login Integrado
 
-Esta API foi desenvolvida com Flask para gerenciar usuários em um banco de dados MySQL e MongoDB. Além disso, inclui um sistema de login integrado, permitindo que os usuários se autentiquem através da API antes de acessar as funcionalidades CRUD.
+
+A API foi desenvolvida em Node.js e é responsável pelo gerenciamento de usuários no banco de dados MongoDB. Ela inclui um sistema de login integrado para autenticação dos usuários antes de acessarem as funcionalidades CRUD.
+
+Após a autenticação bem-sucedida do usuário através do sistema de login da API, ele é redirecionado para uma aplicação Flask. Nessa aplicação Flask, as operações CRUD são realizadas tanto no banco de dados MongoDB quanto no banco de dados MySQL.
+
+Assim, enquanto a API Node.js cuida do gerenciamento de usuários e autenticação, a aplicação Flask assume a responsabilidade de executar as operações CRUD em ambos os bancos de dados, MongoDB e MySQL
 
 ## Funcionalidades
 
